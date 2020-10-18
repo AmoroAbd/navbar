@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: inline-flex;
+  padding: 20px;
+  text-transform: uppercase;
+  background-color: cadetblue;
+  width: 100vw;
+}
+
+.navbar ul li {
+  display: inline;
+  /* padding: 0 5px; */
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  margin: 0;
+}
+.navbar a:hover {
+  background-color: darkblue;
+}
